@@ -1,6 +1,43 @@
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
 
+/* 
 .header img{
-    /* any image that is a child of the class "header" */
+    any image that is a child 
+    of the class "header" 
+} */
+
+#wrapper {
+    background: #2E5073;
+    Height: 1000px;
+    Width: 970px;
+
+
+}
+
+#header {
+    Height: 130px;
+    Width: 970px;
+    Background-color: pink;
+    display: inline-block;
+
+    
+}
+
+#header img {
+    width: 400px;
+    height: 130px;
+   
+}
+
+#searchbox {
+    height: 130px;
+    width: 400px;
+    display: inline-block;
+    background: yellow;
+    display: inline-block;
 }
