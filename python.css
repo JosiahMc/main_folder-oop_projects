@@ -13,7 +13,7 @@
 
 #wrapper {
     background: #2E5073;
-    Height: 1000px;
+    Height: 900px;
     Width: 970px;
 
 
@@ -22,7 +22,7 @@
 #header {
     Height: 130px;
     Width: 970px;
-    Background-color: pink;
+    background: #2E5073;
     display: inline-block;
 
     
@@ -31,13 +31,130 @@
 #header img {
     width: 400px;
     height: 130px;
+    display: inline-block;
    
 }
 
 #searchbox {
     height: 130px;
-    width: 400px;
+    width: 300px;
     display: inline-block;
-    background: yellow;
+    background: #2E5073;
     display: inline-block;
+    margin-left: 266px;
+    vertical-align: top;
+}
+#textsizeContainer {
+    height: 25px;
+    width: 100%;
+    display: inline-block;
+    background: #2E5073;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+#searchbox h4 {
+    display: inline-block;
+}
+#searchbox p {
+    display: inline-block;
+}
+#searchboxContainer {
+    height: 28px;
+    width: 250px;
+    display: inline-block;
+    background: #444444;
+    text-align: center;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    box-shadow: 1px 3px;
+
+}
+
+input {
+    
+    height: 84px;
+    width: 147px;
+
+}
+button {
+    
+    border-top-width: 0px;
+    width: 34px;
+    height: 20px;
+
+}
+
+#middle {
+    height: 700px;
+    width: 970px;
+    background: pink;
+    
+}
+#navbar {
+    height: 50px;
+    width: 800px;
+    border-radius: 5px;
+    margin-left: 120px;
+    background: #527EA9;
+    
+    text-align:center;
+    padding-top: 30px;
+}
+
+#navbar ul {
+    color: white;
+    display: inline-block;
+    text-align:center;
+    
+}
+
+#navbar ul li {
+	min-width: 696px;
+	list-style-type: none;
+    padding: 15px;
+    display: inline;
+    text-align:center;
+    text-emphasis: size;
+    font-size: 24px;
+    padding: 12px;
+    
+}
+
+
+
+
+bottom lists ul     	     {
+    list-style: none;
+     }
+
+.bottomlists ul li:before {
+    content: "\00BB \0020";
+    color: yellow;
+     }
+   
+    
+.bottomlists {
+    width: 270px;
+    height: 200px;
+    background: gray;
+    text-align: center;
+    margin-top: 40px;
+    
+    
+}
+
+.bottomlists ul li a {
+    color: white;
+    padding: 5px;
+    margin: 1px;
+    margin: 0 0 3px 0;
+}
+
+.bottomlists ul li {
+  
+    margin: 0 0 7px 0;
 }
